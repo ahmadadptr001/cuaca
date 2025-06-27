@@ -39,7 +39,7 @@ const Landing = () => {
                     Interactive Map Explorer
                 </div>
                 {/* content */}
-                <div className="grid grid-cols-1 z-4 h-full group-hover:delay-400 group-focus:opacity-100 opacity-0 duration-500 group-hover:opacity-100 text-white group-hover:text-warning">
+                <div className="grid grid-cols-1 z-4 h-full group-hover:delay-400 group-focus-within:opacity-100 opacity-0 duration-500 group-hover:opacity-100 text-white group-hover:text-warning">
                     <div></div>
                     <div></div>
                     <div className="duration-1000 text-center pb-4 flex flex-col gap-5 justify-end">
