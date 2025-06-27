@@ -14,9 +14,9 @@ const Landing = () => {
                     : activeIndex === 1
                     ? "grid-rows-[2fr_1fr_1fr] xs:grid-rows-none xs:grid-cols-[5fr_1fr_1fr]"
                     : activeIndex === 2
-                    ? "grid-rows-[1fr_2fr_1fr] xs:grid-rows-0 xs:grid-cols-[1fr_5fr_1fr]"
+                    ? "grid-rows-[1fr_2fr_1fr] xs:grid-rows-none xs:grid-cols-[1fr_5fr_1fr]"
                     : activeIndex === 3
-                    ? "grid-rows-[1fr_1fr_2fr] xs:grid-rows-0 xs:grid-cols-[1fr_1fr_5fr]"
+                    ? "grid-rows-[1fr_1fr_2fr] xs:grid-rows-none xs:grid-cols-[1fr_1fr_5fr]"
                     : ""
             } xs:h-[100dvh] grid transition-all duration-500 text-white overflow-hidden`}
         >
@@ -39,7 +39,7 @@ const Landing = () => {
                     Interactive Map Explorer
                 </div>
                 {/* content */}
-                <div className="grid grid-cols-1 z-2 h-full group-hover:delay-400 opacity-0 duration-500 group-hover:opacity-100 text-white group-hover:text-warning">
+                <div className="grid grid-cols-1 z-4 h-full group-hover:delay-400 opacity-0 duration-500 group-hover:opacity-100 text-white group-hover:text-warning">
                     <div></div>
                     <div></div>
                     <div className="duration-1000 text-center pb-4 flex flex-col gap-5 justify-end">
@@ -70,7 +70,7 @@ const Landing = () => {
                     Local Weather Forecast
                 </div>
                 {/* content */}
-                <div className="grid grid-cols-1 z-2 h-full group-hover:delay-400 opacity-0 duration-500 group-hover:opacity-100 text-white group-hover:text-warning">
+                <div className="grid grid-cols-1 z-4 h-full group-hover:delay-400 opacity-0 duration-500 group-hover:opacity-100 text-white group-hover:text-warning">
                     <div></div>
                     <div></div>
                     <div className="duration-1000 text-center pb-4 flex flex-col gap-5 justify-end">
@@ -102,7 +102,7 @@ const Landing = () => {
                 </div>
 
                 {/* content */}
-                <div className="grid grid-cols-1 z-2 h-full group-hover:delay-400 opacity-0 duration-500 group-hover:opacity-100 text-white group-hover:text-warning">
+                <div className="grid grid-cols-1 z-4 h-full group-hover:delay-400 opacity-0 duration-500 group-hover:opacity-100 text-white group-hover:text-warning">
                     <div></div>
                     <div></div>
                     <div className="duration-1000 text-center pb-4 flex flex-col gap-5 justify-end">
