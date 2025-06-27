@@ -8,9 +8,9 @@ import { GoTriangleDown, GoTriangleUp } from "react-icons/go";
 
 const Sidebar = () => {
     return (
-        <section id="sidebar-right" className="xs:h-screen fixed hover:bottom-0 -bottom-24 transition-all duration-500 z-20 xs:sticky xs:top-0 w-full xs:w-auto">
+        <section id="sidebar-right" className="xs:h-screen fixed hover:bottom-0 -bottom-22 transition-all duration-500 z-20 xs:sticky xs:top-0 w-full xs:w-auto">
             <div className="shdaow-md rounded-xl xs:xs:w-18 w-full relative group bg-base-300 xs:bg-base-100 p-4 xs:h-full flex xs:flex-col gap-1 text-[.6rem] items-end xs:items-center justify-around xs:justify-start">
-                <GoTriangleDown className="absolute -top-2 left-[46%] size-7 group-hover:opacity-0"/>
+                <GoTriangleDown className="absolute -top-2 left-[46%] size-7 group-hover:opacity-0 xs:hidden"/>
                 <div className="hidden xs:block">
                     <img src={logo_no_word} alt="gambar logo" className="w-full object-cover" />
                 </div>
