@@ -8,7 +8,7 @@ import { GoTriangleDown, GoTriangleUp } from "react-icons/go";
 import { useEffect, useState } from "react";
 
 const Sidebar = () => {
-    const [showSidebar, setShowSidebar] = useState(false);
+    const [showSidebar, setShowSidebar] = useState(true);
     const [lastScroll, setLastScroll] = useState(0);
 
     // handle show and hide scorll-y sidebar bottom
