@@ -21,6 +21,7 @@ const Landing = () => {
             } xs:h-[100dvh] grid transition-all duration-500 text-white overflow-hidden`}
         >
             <div
+                onTouchStart={() => setActiveIndex(1)}
                 onMouseOver={() => setActiveIndex(1)}
                 className="flex items-center justify-center p-10 py-8 relative group"
                 style={{ background: `url(${maps}) center/cover no-repeat` }}
