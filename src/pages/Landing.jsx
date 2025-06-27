@@ -33,7 +33,7 @@ const Landing = () => {
                         absolute top-1/2 left-0 w-max -translate-y-1/2
                         -translate-x-[42%] rotate-90 group-hover:text-warning 
                         text-white px-2 py-1 font-medium duration-1000
-                        whitespace-nowrap text-[20px] xs:text-[32px]
+                        whitespace-nowrap text-[20px] xs:text-[32px] group-active:text-warning
                     "
                 >
                     Interactive Map Explorer
