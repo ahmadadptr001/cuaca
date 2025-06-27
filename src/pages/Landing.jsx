@@ -21,7 +21,6 @@ const Landing = () => {
             } xs:h-[100dvh] grid transition-all duration-500 text-white overflow-hidden`}
         >
             <div
-                onTouchStart={() => setActiveIndex(1)}
                 onMouseOver={() => setActiveIndex(1)}
                 className="flex items-center justify-center p-10 py-8 relative group"
                 style={{ background: `url(${maps}) center/cover no-repeat` }}
@@ -34,13 +33,13 @@ const Landing = () => {
                         absolute top-1/2 left-0 w-max -translate-y-1/2
                         -translate-x-[42%] rotate-90 group-hover:text-warning 
                         text-white px-2 py-1 font-medium duration-1000
-                        whitespace-nowrap text-[20px] xs:text-[32px] group-focus-within:text-warning
+                        whitespace-nowrap text-[20px] xs:text-[32px]
                     "
                 >
                     Interactive Map Explorer
                 </div>
                 {/* content */}
-                <div className="grid grid-cols-1 z-4 h-full group-hover:delay-400 group-focus-within:opacity-100 opacity-0 duration-500 group-hover:opacity-100 text-white group-focus-within:text-warning group-hover:text-warning">
+                <div className="grid grid-cols-1 z-4 h-full group-hover:delay-400 opacity-0 duration-500 group-hover:opacity-100 text-white group-hover:text-warning">
                     <div></div>
                     <div></div>
                     <div className="duration-1000 text-center pb-4 flex flex-col gap-5 justify-end">
