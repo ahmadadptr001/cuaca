@@ -33,13 +33,13 @@ const Landing = () => {
                         absolute top-1/2 left-0 w-max -translate-y-1/2
                         -translate-x-[42%] rotate-90 group-hover:text-warning 
                         text-white px-2 py-1 font-medium duration-1000
-                        whitespace-nowrap text-[20px] xs:text-[32px] group-active:text-warning
+                        whitespace-nowrap text-[20px] xs:text-[32px]
                     "
                 >
                     Interactive Map Explorer
                 </div>
                 {/* content */}
-                <div className="grid grid-cols-1 z-4 h-full group-hover:delay-400 opacity-0 group-active:opacity-100 duration-500 group-hover:opacity-100 text-white group-hover:text-warning">
+                <div className="grid grid-cols-1 z-4 h-full group-hover:delay-400 group-focus:opacity-100 opacity-0 duration-500 group-hover:opacity-100 text-white group-hover:text-warning">
                     <div></div>
                     <div></div>
                     <div className="duration-1000 text-center pb-4 flex flex-col gap-5 justify-end">
